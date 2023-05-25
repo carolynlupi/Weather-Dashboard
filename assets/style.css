@@ -1,0 +1,8 @@
+header {
+    display: flex;
+    justify-content: right;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,40,162,1) 100%);
+    color: white;
+    font-size: 17px;
+}
