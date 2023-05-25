@@ -16,3 +16,9 @@ main {
     display: flex;
     justify-content: right;
 }
+
+.newYork {
+    display:block;
+    background-color: lightslategray;
+    border-radius: 25px;
+}  
