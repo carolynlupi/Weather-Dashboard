@@ -17,8 +17,14 @@ main {
     justify-content: right;
 }
 
-.newYork {
+.container {
     display:block;
     background-color: lightslategray;
-    border-radius: 25px;
+    border-radius: 5px;
+    margin: 35px;
 }  
+
+.container-header{
+    font-size: 18px;
+    font: white;
+}
