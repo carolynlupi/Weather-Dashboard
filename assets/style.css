@@ -11,6 +11,10 @@ header {
     font-size: 17px;
 }
 
+main {
+    flex: 1;
+}
+
 #aside {
     position: left;
     left: 0;
@@ -19,6 +23,7 @@ header {
     height: 100%;
     padding: 50px;
     text-align: left;
+    flex: 1;
 }
 
 #aside h2 {
@@ -80,4 +85,19 @@ header {
     border: none;
     cursor: pointer;
     margin-bottom: 10px;
+}
+
+.container {
+    white-space: nowrap;
+    background-color: darkslategrey;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container-wrapper { /* Added container-wrapper selector */
+    display: flex;
 }
