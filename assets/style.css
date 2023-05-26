@@ -19,12 +19,15 @@ main {
 
 .container {
     display:block;
-    background-color: lightslategray;
+    background-color: darkslategray;
     border-radius: 5px;
     margin: 35px;
+    height: 200px;
+    width: 250px;
 }  
 
 .container-header{
     font-size: 18px;
-    font: white;
+    color: white;
+    justify-content: center;
 }
