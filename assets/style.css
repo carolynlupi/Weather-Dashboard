@@ -12,7 +12,8 @@ header {
 }
 
 main {
-    flex: 1;
+    display: flex;
+    justify-content: first baseline;
 }
 
 #aside {
@@ -23,7 +24,7 @@ main {
     height: 100%;
     padding: 50px;
     text-align: left;
-    flex: 1;
+    flex: 0 0 30%;
 }
 
 #aside h2 {
@@ -98,6 +99,6 @@ main {
     border-radius: 10px;
 }
 
-.container-wrapper { /* Added container-wrapper selector */
+.container-wrapper {
     display: flex;
 }
