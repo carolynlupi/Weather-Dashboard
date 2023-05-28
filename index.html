@@ -8,42 +8,33 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
+    <!-- header -->
     <header id="header">
         <h1>Weather Dashboard</h1>
     </header>
-    <aside id="aside">
-        <h2>Search for a City</h2>
+    <!-- search bar -->
+    <aside id="aside" class="float-left">
+      <h2>Search for a City</h2>
         <div class="search-bar">
-            <input type="text" placeholder="Search...">
-            <button class="button">Search</button>
-          </div>
+            <input type="text" placeholder="Search..." class="form-control" id="enterCity">
+            <button class="button" type="button" id="searchBtn"><i class="fas fa-search">Search</button>
+        </div>
+        <!-- buttons under search bar -->
         <div class="button-container">
           <button class="button">Miami</button>
           <button class="button">New York</button>
           <button class="button">Los Angeles</button>
           <button class="button">Las Vegas</button>
         </div>
-       
-      </aside>
+    </aside>
+        <!-- weather will show here -->
     <main>
-    <div class="container-wrapper">
-        <div class="container">
-            <p class="container-header">Day 1</p>
-        </div>
-        <div class="container">
-            <p class="container-header">Day 2</p>
-        </div>
-        <div class="container">
-            <p class="container-header">Day 3</p>
-        </div>
-        <div class="container">
-            <p class="container-header">Day 4</p>
-        </div>
-        <div class="container">
-            <p class="container-header">Day 5</p>
-        </div>
-    </div>
+    
     </main>
 </body>
+<!-- add in my js & jQuery-->
 <script src="assets/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+crossorigin="anonymous"></script>
 </html>
