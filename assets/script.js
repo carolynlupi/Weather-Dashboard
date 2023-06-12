@@ -13,8 +13,9 @@ function initPage() {
   var todayweatherEl = document.getElementById("today-weather");
   let searchHistory = JSON.parse(localStorage.getItem("search")) || [];
 
-  // Assigning a unique API to a variable
-  const APIKey = "84b79da5e5d7c92085660485702f4ce8";
+
+  //Set up the API key
+  const APIKey = "a0aca8a89948154a4182dcecc780b513";
 
   function getWeather(cityName) {
       // Execute a current weather get request from open weather api
@@ -141,3 +142,6 @@ function initPage() {
 }
 
 initPage();
+
+
+
